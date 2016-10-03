@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muse.muse_performance.Option"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:orientation="vertical"
+            android:background="#ddffff">
+
+            <!-- Song Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="40dp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/songSpinner"
+                android:drawSelectorOnTop="true"
+                android:longClickable="false"
+                />
+
+            <!-- Arra1 Up Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrange1UpFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="40dp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectArrange1UpFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Arra1 Right Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrange1RightFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectArrange1RightFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Arra1 Left Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrange1LeftFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectArrange1LeftFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Arra2 Up Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrange2UpFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="40dp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectArrange2UpFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Arra2 Right Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrange2RightFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectArrange2RightFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Arra2 Left Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrange2LeftFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectArrange2LeftFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Melody Up Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/melodyUpFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="40dp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectMelodyUpFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Melody Right Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/melodyRightFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectMelodyRightFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Melody Left Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/melodyLeftFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectMelodyLeftFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Melody Down Flick Inst Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/melodyDownFlickTextView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:id="@+id/selectMelodyDownFlickSpinner"
+                android:drawSelectorOnTop="true" />
+
+            <!-- Tempo Select -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Tempo"
+                android:textSize="20sp"
+                android:paddingTop="40dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view5"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+            <SeekBar
+                android:id="@+id/tempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                android:paddingRight="40dp"
+                android:paddingLeft="20dp"/>
+
+            <!-- Return Button  -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/return_button"
+                android:background="@drawable/button"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:text="return"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

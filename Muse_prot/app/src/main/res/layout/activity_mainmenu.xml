@@ -14,15 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/send_button1"
-        android:textSize="20sp"
-        android:text="Play"
-        android:layout_margin="40dp"/>
+        android:textSize="60sp"
+        android:text="演奏開始！"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/send_button2"
-        android:textSize="20sp"
-        android:text="Option"
-        android:layout_margin="40dp"/>
+        android:textSize="60sp"
+        android:text="せってい"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
 </LinearLayout>
